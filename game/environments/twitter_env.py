@@ -96,9 +96,7 @@ class TwitterEnv(Environment):
         
         try:
             # Get user information (assuming we know the user ID)
-            print("here")
             user = self.client.get_me()
-            print(user)
             # Get recent tweets
             tweets = self.client.get_users_tweets(
                 user.data.id,

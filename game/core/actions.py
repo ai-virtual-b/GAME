@@ -11,7 +11,7 @@ class ActionResult:
 class Action:
     def __init__(
         self, 
-        func: Callable, 
+        func: Callable,
         description: str, 
         required_params: Dict[str, str],
         example: Dict[str, Any]

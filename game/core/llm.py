@@ -2,6 +2,9 @@ from typing import List, Dict, Any, Callable, Optional, Protocol, TypedDict
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
 
+"""
+Utilities and classes for which to call various LLM APIs
+"""
 
 @dataclass
 class LLMResponse:
