@@ -1,0 +1,8 @@
+*.txt
+*.pth
+*.pyc
+*.pyo
+
+*#
+*.VSCode
+*__pycache__
